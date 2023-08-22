@@ -42,11 +42,11 @@ def main():
 
         with col3:
             st.subheader("Podcast Guest")
-            st.write(podcast_info['podcast_guest'][0])
+            st.write(podcast_info['podcast_guest'][0:8])
 
         with col4:
             st.subheader("Podcast Guest Details")
-            st.write(podcast_info["podcast_guest"][1])
+            st.write(podcast_info["podcast_guest"][9:])
 
         # Display the five key moments
         st.subheader("Key Moments")
